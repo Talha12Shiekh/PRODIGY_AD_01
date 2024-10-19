@@ -11,6 +11,7 @@ import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-nat
 
 const Greenoperators = [...operators, "(", ")"];
 
+// create an icon for a mobile calculator that should be of green background and it should contain the symbols of 4 operations ( addition ( + ) , subtraction ( - )  , multiplication ( x )  , division ( ÷ ) and the color of the symbols should be  white
 export default function Screen({ currentOperand, dispatch, state, previousOperand, history, showHistory }) {
     return (
         <View style={styles.screen}>
